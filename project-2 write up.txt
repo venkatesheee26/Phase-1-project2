@@ -1,0 +1,56 @@
+To create the program that retrieves student data from a text file, sorts it, and allows searching by name, follow these step-by-step instructions:
+
+Step 1: Set Up the Project
+
+Create a new Visual Studio Windows Console Project.
+Name the project as project-2.
+
+Step 2: Create the Text File
+
+Create a text file using Notepad or any text editor.
+
+Name the file "student_data.txt" (or any other suitable name).
+Add student data to the file in the format "Name, Class" for each student, one per line.
+Save the file.
+
+Step 3: Read and Load Data from the Text File
+
+In your C# project, create a class to represent a Student. The class should have properties for "Name" and "Class."
+Read the data from the "student_data.txt" file, parse it, and store it as a list of Student objects in memory.
+
+Step 4: Sorting the Data
+
+Implement a sorting algorithm (e.g., Bubble Sort, Quick Sort, or using LINQ) to sort the list of students by their names in ascending order.
+
+Step 5: Search by Name
+
+Implement a method to search for a student by name. The user should input a name, and the program should display the student's details if found.
+
+Step 6: Display the Sorted Data
+
+Display the sorted list of students' data on the screen.
+
+Step 7: GitHub Repository and Version Control
+
+Create a new GitHub repository for your project.
+Initialize the repository and commit the initial project setup.
+Regularly commit your code as you make progress to keep track of changes.
+
+Step 8: Documentation
+
+Maintain a README.md file in your repository that explains the project, its purpose, and how to use the program.
+Document the steps you took to complete the project, including any challenges faced and how you overcame them.
+Add comments in your code to explain the logic and functionality of various sections.
+
+Step 9: Final Testing
+
+Test your program thoroughly to ensure that it retrieves, sorts, and searches student data correctly.
+Handle edge cases, such as when the file is empty or when a search query doesn't match any student's name.
+
+Step 10: Push to GitHub
+
+Once your project is complete and fully tested, push the final version of your code to the GitHub repository.
+Make sure to update the README.md file with any necessary information about the project
+
+
+github link: https//github.com/venkatesheee26/project2.git
